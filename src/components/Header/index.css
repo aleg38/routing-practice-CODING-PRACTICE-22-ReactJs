@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.nav-container {
+  background-color: white;
+  height: 10vh;
+
+  display: flex;
+  justify-content: space-between;
+}
+.logo-and-text-container {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 9px;
+  align-items: center;
+}
+.logo-style {
+  height: 20px;
+  width: 20px;
+}
+.logo-heading {
+  color: #12022f;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.nav-menu {
+  display: flex;
+}
+.link-style {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+  margin: 5px;
+}
